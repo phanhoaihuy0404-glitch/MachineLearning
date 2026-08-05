@@ -37,16 +37,15 @@ def main():
 
     # Check if model exists
     model_path = base_dir / "model.pkl"
-    scaler_path = base_dir / "scaler.pkl"
     
-    if not model_path.exists() or not scaler_path.exists():
-        print("⚠️  Model files not found. Training model first...")
+    if not model_path.exists():
+        print("⚠️  Model file not found. Training model first...")
         subprocess.run([python_exe, str(base_dir / "train_model.py")], check=True)
         print("✅ Model trained successfully!")
 
     # Run Streamlit app
     print("\n" + "=" * 60)
-    print("🚀 Starting California Housing Price Predictor...")
+    print("🚀 Starting Vietnam Housing Price Predictor...")
     print("📊 Opening Streamlit app in your browser...")
     print("=" * 60 + "\n")
     
