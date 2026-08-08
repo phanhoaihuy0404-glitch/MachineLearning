@@ -27,7 +27,6 @@ ML/
 ├── requirements.txt                        # Dependencies
 ├── model.pkl                               # Model đã train
 ├── metrics.json                            # Metrics (RMSE, R²)
-├── TODO.md                                 # Kế hoạch công việc
 ├── .gitignore
 └── README.md
 ```
