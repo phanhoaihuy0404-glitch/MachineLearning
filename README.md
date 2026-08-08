@@ -97,7 +97,7 @@ Mở trình duyệt → [http://localhost:8501](http://localhost:8501)
 ### 5) Xem Notebook phân tích
 
 ```bash
-jupyter notebook California_Housing_Analysis.ipynb
+hist_boxplot_analysis.ipynb
 ```
 
 ---
